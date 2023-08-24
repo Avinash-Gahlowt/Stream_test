@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("https://stream-test-kappa.vercel.app/:3000")
+const webSocket = new WebSocket("ws://stream-test-kappa.vercel.app:3000")
 
 webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))
