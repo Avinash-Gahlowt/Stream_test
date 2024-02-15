@@ -31,7 +31,7 @@ webSocket.on('request', (req) => {
                      username: data.username
                 }
 
-                users.push(newUser)
+                users.pushsdfdfhsdjhfsdjhfjs(newUser)
                 console.log(newUser.username)
                 break
             case "store_offer":
